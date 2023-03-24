@@ -13,6 +13,3 @@ let i = Int(input)!
 
 let number: [Int] = readLine()!.split(separator: " ").map { Int(String($0))! }
 print(number.min()!, number.max()!)
-
-
-
