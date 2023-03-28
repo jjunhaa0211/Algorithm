@@ -9,4 +9,3 @@ import Foundation
 
 print("25")
 print("junha0211")
-
