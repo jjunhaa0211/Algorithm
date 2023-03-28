@@ -39,6 +39,11 @@
 			<key>orderHint</key>
 			<integer>16</integer>
 		</dict>
+		<key>Registration.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>20</integer>
+		</dict>
 		<key>Sprout.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -93,6 +98,11 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>7</integer>
+		</dict>
+		<key>registration.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>19</integer>
 		</dict>
 		<key>selectionSort copy.xcscheme_^#shared#^_</key>
 		<dict>
