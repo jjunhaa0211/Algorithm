@@ -7,22 +7,22 @@
 		<key>ADivideB.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>11</integer>
+			<integer>9</integer>
 		</dict>
 		<key>BubbleSort.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>14</integer>
+			<integer>19</integer>
 		</dict>
 		<key>CompareTwoNumbers.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>4</integer>
 		</dict>
 		<key>Factorial.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>16</integer>
+			<integer>21</integer>
 		</dict>
 		<key>FastAPlusB.xcscheme_^#shared#^_</key>
 		<dict>
@@ -32,67 +32,72 @@
 		<key>LittleJeongmin.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>15</integer>
+			<integer>17</integer>
 		</dict>
 		<key>MaxMin.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>18</integer>
+			<integer>8</integer>
 		</dict>
 		<key>NChopping.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>15</integer>
 		</dict>
 		<key>PickAQuadrant.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>17</integer>
+			<integer>12</integer>
 		</dict>
 		<key>Registration.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>7</integer>
+			<integer>0</integer>
 		</dict>
 		<key>SafariWorld.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>19</integer>
+			<integer>3</integer>
 		</dict>
 		<key>Sprout.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>9</integer>
+			<integer>13</integer>
 		</dict>
 		<key>SwiftAlgorithm.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>20</integer>
+			<integer>5</integer>
 		</dict>
 		<key>TakeAStar1.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>20</integer>
+		</dict>
+		<key>TakeAStar2.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>23</integer>
 		</dict>
 		<key>TodayDate.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>8</integer>
+			<integer>2</integer>
 		</dict>
 		<key>aMinusb.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>21</integer>
+			<integer>22</integer>
 		</dict>
 		<key>aPlusBMinusThree.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>4</integer>
+			<integer>6</integer>
 		</dict>
 		<key>aPlusb.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>6</integer>
+			<integer>7</integer>
 		</dict>
 		<key>childsBloodType.xcscheme_^#shared#^_</key>
 		<dict>
@@ -102,17 +107,17 @@
 		<key>gugudan.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>22</integer>
+			<integer>1</integer>
 		</dict>
 		<key>insertionSort.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>10</integer>
+			<integer>11</integer>
 		</dict>
 		<key>receipt.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>12</integer>
+			<integer>14</integer>
 		</dict>
 		<key>registration.xcscheme_^#shared#^_</key>
 		<dict>
@@ -127,17 +132,17 @@
 		<key>selectionSort.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>13</integer>
+			<integer>18</integer>
 		</dict>
 		<key>wordCount.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>16</integer>
 		</dict>
 		<key>wordStduy.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>5</integer>
+			<integer>10</integer>
 		</dict>
 	</dict>
 </dict>
