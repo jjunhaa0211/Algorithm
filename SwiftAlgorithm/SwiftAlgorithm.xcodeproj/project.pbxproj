@@ -15,6 +15,7 @@
 		0E2E962F29D25CAD0034B6A3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2E962E29D25CAD0034B6A3 /* main.swift */; };
 		0E2E963B29D26DDF0034B6A3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2E963A29D26DDF0034B6A3 /* main.swift */; };
 		0E2E965129D272840034B6A3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2E965029D272840034B6A3 /* main.swift */; };
+		0E2E965C29D274570034B6A3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2E965B29D274570034B6A3 /* main.swift */; };
 		0E7752C92961377600E9E872 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7752C82961377600E9E872 /* main.swift */; };
 		0E97DA7A28F7F50500C6E32D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E97DA7928F7F50500C6E32D /* main.swift */; };
 		0E99B7F228F95E5A0016003A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E99B7F128F95E5A0016003A /* main.swift */; };
@@ -93,6 +94,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		0E2E964C29D272840034B6A3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0E2E965729D274570034B6A3 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -228,6 +238,8 @@
 		0E2E963A29D26DDF0034B6A3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		0E2E964E29D272840034B6A3 /* Registration */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Registration; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E2E965029D272840034B6A3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		0E2E965929D274570034B6A3 /* SafariWorld */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SafariWorld; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E2E965B29D274570034B6A3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		0E7752C62961377600E9E872 /* PickAQuadrant */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PickAQuadrant; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E7752C82961377600E9E872 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		0E97DA7728F7F50500C6E32D /* gugudan */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = gugudan; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -304,6 +316,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0E2E964B29D272840034B6A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E2E965629D274570034B6A3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -461,6 +480,14 @@
 			path = Registration;
 			sourceTree = "<group>";
 		};
+		0E2E965A29D274570034B6A3 /* SafariWorld */ = {
+			isa = PBXGroup;
+			children = (
+				0E2E965B29D274570034B6A3 /* main.swift */,
+			);
+			path = SafariWorld;
+			sourceTree = "<group>";
+		};
 		0E7752C72961377600E9E872 /* PickAQuadrant */ = {
 			isa = PBXGroup;
 			children = (
@@ -539,6 +566,7 @@
 				0E2E962D29D25CAD0034B6A3 /* TodayDate */,
 				0E2E963929D26DDF0034B6A3 /* Sprout */,
 				0E2E964F29D272840034B6A3 /* Registration */,
+				0E2E965A29D274570034B6A3 /* SafariWorld */,
 				0EB9D18328F660BB00C7C557 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -566,6 +594,7 @@
 				0E2E962C29D25CAD0034B6A3 /* TodayDate */,
 				0E2E963829D26DDF0034B6A3 /* Sprout */,
 				0E2E964E29D272840034B6A3 /* Registration */,
+				0E2E965929D274570034B6A3 /* SafariWorld */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -739,6 +768,23 @@
 			name = Registration;
 			productName = Registration;
 			productReference = 0E2E964E29D272840034B6A3 /* Registration */;
+			productType = "com.apple.product-type.tool";
+		};
+		0E2E965829D274570034B6A3 /* SafariWorld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E2E965D29D274570034B6A3 /* Build configuration list for PBXNativeTarget "SafariWorld" */;
+			buildPhases = (
+				0E2E965529D274570034B6A3 /* Sources */,
+				0E2E965629D274570034B6A3 /* Frameworks */,
+				0E2E965729D274570034B6A3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SafariWorld;
+			productName = SafariWorld;
+			productReference = 0E2E965929D274570034B6A3 /* SafariWorld */;
 			productType = "com.apple.product-type.tool";
 		};
 		0E7752C52961377600E9E872 /* PickAQuadrant */ = {
@@ -979,6 +1025,9 @@
 					0E2E964D29D272840034B6A3 = {
 						CreatedOnToolsVersion = 14.2;
 					};
+					0E2E965829D274570034B6A3 = {
+						CreatedOnToolsVersion = 14.2;
+					};
 					0E7752C52961377600E9E872 = {
 						CreatedOnToolsVersion = 14.2;
 					};
@@ -1050,6 +1099,7 @@
 				0E2E962B29D25CAD0034B6A3 /* TodayDate */,
 				0E2E963729D26DDF0034B6A3 /* Sprout */,
 				0E2E964D29D272840034B6A3 /* Registration */,
+				0E2E965829D274570034B6A3 /* SafariWorld */,
 			);
 		};
 /* End PBXProject section */
@@ -1116,6 +1166,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E2E965129D272840034B6A3 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E2E965529D274570034B6A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E2E965C29D274570034B6A3 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1398,6 +1456,30 @@
 			name = Debug;
 		};
 		0E2E965429D272840034B6A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92YDTRVDUA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		0E2E965E29D274570034B6A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92YDTRVDUA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0E2E965F29D274570034B6A3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -1873,6 +1955,15 @@
 			buildConfigurations = (
 				0E2E965329D272840034B6A3 /* Debug */,
 				0E2E965429D272840034B6A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E2E965D29D274570034B6A3 /* Build configuration list for PBXNativeTarget "SafariWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E2E965E29D274570034B6A3 /* Debug */,
+				0E2E965F29D274570034B6A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
