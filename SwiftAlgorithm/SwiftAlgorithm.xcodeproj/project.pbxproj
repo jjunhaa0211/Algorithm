@@ -24,6 +24,7 @@
 		0E7752C92961377600E9E872 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7752C82961377600E9E872 /* main.swift */; };
 		0E8408CA29E182B4005EB879 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8408C929E182B4005EB879 /* main.swift */; };
 		0E8408D529E18495005EB879 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8408D429E18495005EB879 /* main.swift */; };
+		0E84099E29E3806B005EB879 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E84099D29E3806B005EB879 /* main.swift */; };
 		0E901F1F29D3AC5D007B8006 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E901F1E29D3AC5D007B8006 /* main.swift */; };
 		0E901F2A29D3B04F007B8006 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E901F2929D3B04F007B8006 /* main.swift */; };
 		0E97DA7A28F7F50500C6E32D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E97DA7928F7F50500C6E32D /* main.swift */; };
@@ -189,6 +190,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		0E8408D029E18495005EB879 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0E84099929E3806A005EB879 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -396,6 +406,8 @@
 		0E8408C929E182B4005EB879 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		0E8408D229E18495005EB879 /* WhoAmI */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = WhoAmI; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E8408D429E18495005EB879 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		0E84099B29E3806A005EB879 /* MicrosoftLogo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MicrosoftLogo; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E84099D29E3806B005EB879 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		0E901F1C29D3AC5D007B8006 /* TakeAStar2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TakeAStar2; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E901F1E29D3AC5D007B8006 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		0E901F2729D3B04F007B8006 /* OutputAsIs */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OutputAsIs; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -547,6 +559,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0E8408CF29E18495005EB879 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E84099829E3806A005EB879 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -818,6 +837,14 @@
 			path = WhoAmI;
 			sourceTree = "<group>";
 		};
+		0E84099C29E3806B005EB879 /* MicrosoftLogo */ = {
+			isa = PBXGroup;
+			children = (
+				0E84099D29E3806B005EB879 /* main.swift */,
+			);
+			path = MicrosoftLogo;
+			sourceTree = "<group>";
+		};
 		0E901F1D29D3AC5D007B8006 /* TakeAStar2 */ = {
 			isa = PBXGroup;
 			children = (
@@ -935,6 +962,7 @@
 				0E184B0429DF8CF300D03DEB /* ShootingStars2 */,
 				0E8408C829E182B4005EB879 /* Pottery */,
 				0E8408D329E18495005EB879 /* WhoAmI */,
+				0E84099C29E3806B005EB879 /* MicrosoftLogo */,
 				0EB9D18328F660BB00C7C557 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -977,6 +1005,7 @@
 				0E184B0329DF8CF200D03DEB /* ShootingStars2 */,
 				0E8408C729E182B4005EB879 /* Pottery */,
 				0E8408D229E18495005EB879 /* WhoAmI */,
+				0E84099B29E3806A005EB879 /* MicrosoftLogo */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1327,6 +1356,23 @@
 			name = WhoAmI;
 			productName = WhoAmI;
 			productReference = 0E8408D229E18495005EB879 /* WhoAmI */;
+			productType = "com.apple.product-type.tool";
+		};
+		0E84099A29E3806A005EB879 /* MicrosoftLogo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E8409A129E3806B005EB879 /* Build configuration list for PBXNativeTarget "MicrosoftLogo" */;
+			buildPhases = (
+				0E84099729E3806A005EB879 /* Sources */,
+				0E84099829E3806A005EB879 /* Frameworks */,
+				0E84099929E3806A005EB879 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MicrosoftLogo;
+			productName = MicrosoftLogo;
+			productReference = 0E84099B29E3806A005EB879 /* MicrosoftLogo */;
 			productType = "com.apple.product-type.tool";
 		};
 		0E901F1B29D3AC5D007B8006 /* TakeAStar2 */ = {
@@ -1696,6 +1742,9 @@
 					0E8408D129E18495005EB879 = {
 						CreatedOnToolsVersion = 14.3;
 					};
+					0E84099A29E3806A005EB879 = {
+						CreatedOnToolsVersion = 14.3;
+					};
 					0E901F1B29D3AC5D007B8006 = {
 						CreatedOnToolsVersion = 14.2;
 					};
@@ -1800,6 +1849,7 @@
 				0E184B0229DF8CF200D03DEB /* ShootingStars2 */,
 				0E8408C629E182B4005EB879 /* Pottery */,
 				0E8408D129E18495005EB879 /* WhoAmI */,
+				0E84099A29E3806A005EB879 /* MicrosoftLogo */,
 			);
 		};
 /* End PBXProject section */
@@ -1938,6 +1988,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E8408D529E18495005EB879 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E84099729E3806A005EB879 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E84099E29E3806B005EB879 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2484,6 +2542,30 @@
 			name = Debug;
 		};
 		0E8408D829E18495005EB879 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92YDTRVDUA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		0E84099F29E3806B005EB879 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92YDTRVDUA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0E8409A029E3806B005EB879 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -3184,6 +3266,15 @@
 			buildConfigurations = (
 				0E8408D729E18495005EB879 /* Debug */,
 				0E8408D829E18495005EB879 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E8409A129E3806B005EB879 /* Build configuration list for PBXNativeTarget "MicrosoftLogo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E84099F29E3806B005EB879 /* Debug */,
+				0E8409A029E3806B005EB879 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
