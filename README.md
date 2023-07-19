@@ -1,1 +1,1 @@
-# SwiftAlgorithm
+# Algorithm
